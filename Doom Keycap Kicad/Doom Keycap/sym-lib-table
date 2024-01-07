@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "MCU_RaspberryPi_RP2040")(type "Legacy")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2040.lib")(options "")(descr ""))
+  (lib (name "Doom-Keycap-rescue")(type "Legacy")(uri "${KIPRJMOD}/Doom Keycap-rescue.lib")(options "")(descr ""))
+  (lib (name "Amp")(type "Legacy")(uri "${KIPRJMOD}/2022-12-25_05-10-14.lib")(options "")(descr ""))
+)
