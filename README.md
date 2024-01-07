@@ -27,7 +27,7 @@ Here are the final couple STLs I generated for the model, plus the fusion 360 fi
 ## Fabrication tips
 
 * Unless you are a god-tier solderer, you're not going to get away with hand-soldering these boards; you will need a stencil and a reflow oven or similar. 
-* You can get away with a single stencil for the top of the board and hand-soldering the bottom; the only tricky part is the FPC connector, but with extra flux and dragging the tip, the solder should wick where it needs to go. 
+* You _can_ get away with a single stencil for the top of the board and hand-soldering the bottom though. the only tricky part is the FPC connector, but with extra flux and dragging the tip, the solder should wick where it needs to go. 
 * The LED on the board is keyed to blink at certain critical moments in the program; if you aren't getting _any_ blinking at all, it means the device is malfunctioning. If you get _some_ blinking that stops, you probably forgot to burn the wad file to memory - I can't tell you how many times I did this. A screen does not have to be installed for the program to run successfully.
 * if you upload a program that runs fine, but is then forgotten, you need to set PICO_XOSC_STARTUP_DELAY_MULTIPLIER. The crystal isn't stabilizing fast enough, which is causing the RP2040 to give up on reading the flash chip
 * Fitment on the case is very tight; try not to over-bend the FPC on the screen
