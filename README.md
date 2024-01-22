@@ -11,11 +11,12 @@ I had every intention of fabricating and selling these myself, but I got caught 
 
 This directory houses the Kicad files for the final version of the Doom Keycap PCB. It was essentially a mashup of the RP2040 minimal pcb and Adafruit's schematic for the [MAX98357AETE breakout board](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/downloads), with a semi-standard FPC connector for SPI displays and smaller parts. Quick facts:
 
-* The footprint library did not make the jump to a new operating system, but the footprints are embedded in the PCB file; you can export and reimport them, or you can just leave them as they are
-* Finding a small but powerful enough speaker was a challenge. The small screen versions of the keycap did not have a speaker installed.
+* The footprint library did not make the jump to a new operating system, but the footprints are embedded in the PCB file; you can right-click "edit footprint", save-as, and then reassociate them in the schematic. Or you know, you could not.
+* I used screens from [this](https://www.aliexpress.us/item/3256803794221438.html?spm=a2g0o.order_list.order_list_main.4.651c1802EaKSD2&gatewayAdapt=glo2usa) aliexpress listing, which have FPC connectors that look like [this](https://imgur.com/btXJBdo). No other FPC connector will work on this iteration of the board (obviously)
+* Finding a small but powerful enough speaker was a challenge. The small screen versions of the keycap did not have a speaker installed due to size constraints.
 * I calculated the value of the crystal oscillator's capacitors wrong; it starts up, but it requires an extra flag during program compilation to give the crystal more time to stabilize. It should work as-is, but optimizing those values would be ideal
-* The design might not be well-optimized, I'm a computer scientist by trade
-* The flash memory could definitely be smaller, but beware: not all memory chips are drop-in replacements. Similarly, the voltage regulator could have a much smaller footprint, I just couldn't find one at the time. 
+* The hardware design / components selected might not be well-optimized, I'm a computer scientist by trade. I did my best though.
+* The flash memory could definitely be smaller, but beware: not all memory chips are drop-in replacements. Similarly, the voltage regulator could have a much smaller footprint, I just couldn't find one at the time. If you do swap the regulator and you want to play doom on the keycap with a keyboard, remember the regulator will be supplying electricity to the keyboard, not the other way around. 
 
 
 ## Doom Keycap Case
