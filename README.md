@@ -5,7 +5,7 @@
 
 Here are all the files associated with the hardware for the Doom Keycap. If you're looking for the code, it's [here](https://github.com/rsheldiii/rp2040-doom-LCD/).
 
-I had every intention of fabricating and selling these myself, but I got caught up on how to manufacture the keycap itself without A. breaking the bank, or B. doing a group buy before realizing my design wasn't feasible. With That, coupled with (happy) life events, I decided to open-source the hardware now.
+I had every intention of fabricating and selling these myself, but I got caught up on how to manufacture the keycap itself without A. breaking the bank, or B. doing a group buy before realizing my design wasn't feasible. With that, coupled with (happy) life events, I decided to open-source the hardware now.
 
 ## Doom Keycap Kicad
 
