@@ -7,6 +7,10 @@ Here are all the files associated with the hardware for the Doom Keycap. If you'
 
 I had every intention of fabricating and selling these myself, but I got caught up on how to manufacture the keycap itself without A. breaking the bank, or B. doing a group buy before realizing my design wasn't feasible. With that, coupled with (happy) life events, I decided to open-source the hardware now.
 
+## Doom Business Card
+
+I handed out quite a few of these during OpenSauce 2025! If you're one of those people and you're seeing this message, try back in a couple of days. The BOM in the kicad files for the keycap is _almost_, but not quite, the same as the business card; I also need to upload a stencil. Once I'm back home I'll do both!
+
 ## Doom Keycap Kicad
 
 This directory houses the Kicad files for the final version of the Doom Keycap PCB. It was essentially a mashup of the RP2040 minimal pcb and Adafruit's schematic for the [MAX98357AETE breakout board](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/downloads), with a semi-standard FPC connector for SPI displays and smaller parts. Quick facts:
