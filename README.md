@@ -9,7 +9,7 @@ I had every intention of fabricating and selling these myself, but I got caught 
 
 ## Doom Business Card
 
-I handed out quite a few of these during OpenSauce 2025! I've uploaded the stencil file (Doom Business Card-F_Paste.gtp) that you'll need fabbed if you want to use solder paste - which I highly recommend. Working on the BOM now
+I handed out quite a few of these during OpenSauce 2025! You can check the subfolder for the front paste file (which you can use to generate a highly-recommended stencil at osh stencils) and the BOM. Happy soldering and good luck!
 
 ## Doom Keycap Kicad
 
