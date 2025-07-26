@@ -9,7 +9,7 @@ I had every intention of fabricating and selling these myself, but I got caught 
 
 ## Doom Business Card
 
-I handed out quite a few of these during OpenSauce 2025! If you're one of those people and you're seeing this message, try back in a couple of days. The BOM in the kicad files for the keycap is _almost_, but not quite, the same as the business card; I also need to upload a stencil. Once I'm back home I'll do both!
+I handed out quite a few of these during OpenSauce 2025! I've uploaded the stencil file (Doom Business Card-F_Paste.gtp) that you'll need fabbed if you want to use solder paste - which I highly recommend. Working on the BOM now
 
 ## Doom Keycap Kicad
 
